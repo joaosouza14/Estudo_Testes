@@ -174,3 +174,7 @@ button {
     cursor: pointer; 
     font-size: 27px;
 }
+
+.attribution{
+    text-align: center;
+}
