@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.estrela {
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+.circuloestrela {
+    background-color: hsl(213, 19%, 18%);
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 27px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(216, 12%, 54%);
+}
+
+.card,
+.card-thanks {
+    padding: 25px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-color: #1e252f;
+    border-radius: 25px;
+}
+
+.card-thanks {
+    text-align: center;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.numero {
+    background-color: hsl(213, 19%, 18%);
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: hsl(216, 12%, 54%);
+    margin: 15px 0 15px 0;
+    line-height: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.numero:hover {
+    background-color: #7c8898;
+    color: white;
+}
+
+.numero:active{
+    background-color: hsl(25, 97%, 53%);
+}
+
+#submit {
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 25px;
+    width: 350px;
+    height: 45px;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.imagemobrigado {
+    text-align: center;
+}
+
+.youselected {
+    text-align: center;
+    background-color: hsl(213, 19%, 18%);
+    height: 25px;
+    width: 200px;
+    margin: auto;
+    color: hsl(25, 97%, 53%);
+    border-radius: 15px;
+    padding-top: 6px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
