@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    background-color: violet;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: violet;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 75vh;
+    width: 75vw;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.cardimages {
+    width: 50%;
+    height: 50%;
+}
+
+.cardfaq {
+    width: 50%;
+    height: 50%;
+    max-width: 30%;
+    align-self: self-start;
+    padding-top: 5vh;
+}
+
+h1{
+    font-size: 2.5vw;
+}
+
+p{
+    font-size: 0.9vw;
+    color: rgba(116, 116, 116, 0.75);
+}
+
+hr{
+    border-color: rgba(0, 0, 0, 0.103);
+}
+
+#pattern,
+#box,
+#woman {
+    position: absolute;
+    width: 100%;
+}
+
+#pattern {
+    width: 70%;
+    z-index: 0;
+    top: -27.5%;
+    left: -28%;
+}
+
+#box {
+    width: 14%;
+    top: 42.5%;
+    left: 5.4%;
+    z-index: 2;
+}
+
+#woman {
+    width: 35%;
+    z-index: 1;
+    top: 22%;
+    left: 7%;
+}
+
+summary {
+    font-size: 1vw;
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2em 0 1em 0;
+}
+
+summary::after {
+    content: url("images/icon-arrow-down.svg");
+    margin-right: 10px;
+    transition: transform 0.3s;
+    width: 10px;
+}
+
+details[open] summary:after {
+    content: url("images/icon-arrow-down.svg");
+    transform: rotate(180deg);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
