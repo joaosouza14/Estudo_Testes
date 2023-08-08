@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(images/bg-pattern-desktop.svg);
+    margin: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 1vw;
+}
+
+.cardemail{
+    height: 100%;
+    width: 100%;
+    margin: 0 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+#logo{
+    width: 35%;
+    margin-bottom: 15%;
+}
+
+button{
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    cursor: pointer;
+}
+
+h1{
+    font-size: 100%;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1vw;
+    color: black;
+    padding-bottom: 2vw;
+}
+
+#we{
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+}
+
+p{
+    font-size: 1.5vw;
+    color: hsl(0, 36%, 70%);
+    padding-bottom: 2vw;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
